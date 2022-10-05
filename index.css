@@ -3,5 +3,24 @@ body{
 }
 
 h1{
-    font-family: fantasy;
+    font-family: Georgia, serif;
+    font-size: 90px;
+    padding: 20px;
+}
+.box{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin: auto
+}
+.pictureline{
+    margin: 20px;
+    width: 280px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+#pictures{
+    background-color: #dde6d5;
 }
