@@ -1,26 +1,87 @@
 body{
     background-color:  #fceee9 ;
+    
 }
 
-h1{
-    font-family: Georgia, serif;
-    font-size: 90px;
-    padding: 20px;
+#heartgif{
+    width: 5%;
+    zoom: 1.5;
+    
 }
-.box{
-    margin-top: 20px;
-    margin-bottom: 50px;
-    margin: auto
-}
-.pictureline{
-    margin: 20px;
-    width: 280px;
-    height: 300px;
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    line-height: 50%;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: #e98383;
+    width: 0%;
+  }
+
+  #progress{
+    font-size: 30px;
+    font-family: monospace;
+  }
+
+  #icon{
+    border-radius: 100px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 20px;
+    margin: auto;
+    padding: auto;
+    object-fit: cover;
+    width: 10%;
+    
+  }
+
+#DivHeader{
+    font-size: 30px;
+    
+    font-weight: bold;
+    text-align: center;
+    color: #e98383;
 }
-#pictures{
-    background-color: #dde6d5;
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #fceee9;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.welcome{
+    text-align: center;
+    font-weight: bolder;
+    color: #e98383
+}
+
+hr{
+    border: #e98383 solid 5px;
+}
+
+#smallerHeader{
+    color: #7083a7;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+
 }
